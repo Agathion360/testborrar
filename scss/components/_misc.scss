@@ -1,0 +1,39 @@
+.alertaVacio{
+    background-color: red;
+    color: white;
+    height: 30px;
+}
+
+
+.opciones{
+    .btn{
+        background-color: transparent;
+        border: none; 
+        width: 0px;
+        height: 0px; 
+        margin-top: -25px;   
+        margin-left: 10px;
+        i{
+            font-size: 14px;
+            color: black;
+            margin-top:0px
+        }
+
+        .fa-eye{
+            &:hover{
+                color: dodgerblue;
+            }
+        }
+        .fa-pen{
+            &:hover{
+                color:rgb(15, 150, 38)
+            }
+        }
+        .fa-trash{
+            &:hover{
+                color: red;
+            }
+        }
+    }
+   
+}

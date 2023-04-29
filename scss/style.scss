@@ -1,0 +1,13 @@
+body{
+    background-color: #edeaf2
+}
+
+@import'./base/formatter';
+
+
+@import'./components/modal';
+@import'./components/tabla';
+@import'./components/cardtotal';
+@import'./components/formulario';
+@import'./components/navbar';
+@import'./components/misc';

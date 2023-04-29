@@ -1,0 +1,80 @@
+
+// efecto al seleccionar textos
+h1,li,th,td,strong,span{
+    &::selection{
+        background-color: $fondo;
+        color:white;
+    }
+}
+
+.nuevoIngreso{
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 220px;
+    background-color: $fondo;
+    color: white;
+    &:hover{
+        background-color: darken($fondo, 18);
+        color: white;
+    }
+}
+
+
+
+.modal{
+    .modal-header{
+        background-color: $fondo;
+        color: white;
+    }
+    .modal-body{
+        background-color: $fondomodal;
+        .form-nuevoProducto{
+          
+        }
+        .nuevaCategoria{
+            margin-top: -100px;
+            margin-left: 130px;
+            background-color: $fondo;
+            border: none;
+            &:hover{
+                background-color: darken($fondo, 18);
+                color: white;
+            }            
+           }
+    }
+
+    .modal-footer{
+        background-color: $fondomodal;
+        .btn-outline-personal{
+            border: solid 1px darken($fondo, 30);
+            color: darken($fondo, 30);
+            &:hover{
+                background-color:darken($fondo, 30);
+                color: white;
+            }
+        }
+
+    }
+}
+
+
+.desactivado{
+    display: none;   
+}
+
+
+.btncat{
+    background-color: $fondo;
+    border: none;
+    &:hover{
+        background-color: darken($fondo, 18);
+        color: white;
+    }      
+   }
+
+
+// .total_valor{
+//     background-color: red;
+    
+
+// }

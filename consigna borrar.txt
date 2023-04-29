@@ -1,0 +1,21 @@
+nombre
+categoria.....hacer cargador de categoria
+fabricante
+color
+
+ubicacion..(deposito)
+calidad(primera,segunda)
+costo
+iva
+porcentaje ganancia.....
+precio al publico
+imagen
+codigo interno(id)
+
+estructura html
+variables
+funciones esenciales
+objetos
+array
+metodos de busqueda array
+

@@ -1,0 +1,119 @@
+.tabla {
+    margin-top: 80px;
+    padding-left: 5em;
+    
+    form{
+        margin-bottom: 30px;
+        .buscador{
+            width: 680px;
+            border-radius: 10px;
+            height: 35px;
+            border: none;
+            background-color: $fondomodal;
+            ::placeholder{
+                margin-left:50px
+            }
+            :focus{
+                border: none;
+            }
+        }
+        .btn-buscar{
+            padding:12px;
+            border-radius:50%;
+            border: none;
+            background-color: $fondomodal;
+            i{
+                font-size: 20px;
+                color: gray;
+            }
+        }
+    }
+    .table-personal{
+   
+        thead{
+            background-color: $fondo;
+            color: white;
+            
+            tr{
+                th{
+                    font-size: 10 !important;
+                    font-family: $font1;
+                    font-weight: 500 !important;
+                }
+                th:nth-child(3){
+                    width: 350px;
+                }
+
+                th:nth-child(7){
+                    width: 150px !important;
+                }
+            }
+        }
+    
+        tbody{
+            tr{
+                td:nth-child(6){
+                    background-color: $fondomodal;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+header{
+    h1{
+        margin-top: 40px;
+        font-size: 25px;
+        font-family: $font1;
+        color: $texomodal;
+        
+    }
+}
+
+footer{
+    margin-top: 60px;
+    background-color: $fondomodal;
+    p{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 60px;
+        padding: 15px;
+        span{
+            font-weight: 300;
+            margin-left: 40px;
+        }
+    }
+}
+
+
+// tabla proveedores
+
+.cont-Provee{
+    margin-top: 120px;
+    table{
+        thead{
+            tr{
+                
+                background-color: $fondo;
+                th{
+                    color: white;
+                    
+                }
+            }
+        }
+    }
+    
+}
+
+.notificacion-tabla{
+    background-color: rgba(173, 9, 9, 0.63);
+    &:hover{
+        background-color: rgba(224, 8, 8, 0.801)
+    }
+    .notificacion-temporal{
+        padding: 15px;
+        color: white;
+
+    }
+}

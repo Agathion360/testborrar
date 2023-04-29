@@ -1,0 +1,115 @@
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Nuevo Ingreso</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <!-- Formulario -->
+                <form class="form-nuevoProducto">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col ">
+
+
+                                
+                    <div class="mb-3">
+                        <label class="form-label">Nombre:</label>
+                        <input type="text" class="form-control nombre">
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-10">
+                            <label class="form-label">Categoria</label>
+                            <input type="text" class="form-control categoria">
+                            
+                        </div>
+                        <div class="col-2 btn-mew">
+
+                            <button class="nuevaCategoria" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                       
+                      
+                    </div>
+                    
+
+                    <div class="mb-3">
+                         <label class="form-label">Ubicacion</label>
+                       <!-- <input type="text" class="form-control ubicacion"> -->
+                        <select class="form-select ubicacion" aria-label="Default select example">
+                            <option selected disabled>seleccione una ubicacion</option>
+                            </select>
+                    </div>
+
+                   
+
+                    <div class="row">
+                        <div class="mb-3 col-xl-4"> 
+                            <label class="form-label">Costo</label>
+                            <input type="text" class="form-control costo">
+                        </div>
+
+                    <div class="mb-3 col-xl-2">
+                        <label class="form-label">IVA</label>
+                        <input type="text" class="form-control iva">
+                    </div>
+
+                    <div class="mb-3 col-xl-3">
+                        <label class="form-label">% Ganancia</label>
+                        <input type="text" class="form-control ganancia">
+                    </div>
+
+                    <div class="mb-3 col-xl-3">
+                        <label class="form-label" style="font-size: 12px;">Precio Publico</label>
+                        <input type="text" class="form-control precio-publico">
+                    </div>
+
+                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal"><i
+                                class="fa-solid fa-xmark"></i> Cerrar</button>
+
+                        <button type="submit" class="btn btn-outline-personal"><i class="fa-solid fa-floppy-disk"></i>
+                            Guardar</button>
+                    </div>
+
+                    
+
+
+
+                </form>
+                <!-- Formulario -->
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hide this modal and show the first with the button below.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Open first modal</button>
